@@ -36,9 +36,9 @@ pip install tokenizers ==0.13.3
 In this paper, we introduce a dataset called **MNER-MI**. 
 We merge it with [Twitter-2017](https://github.com/jefferyYu/UMT) to get a dataset called **MNER-MI-Plus**.
 
-These two datasets can be downloaded via Baidu Netdisk, and the download links are as follows：https://pan.baidu.com/s/1Aq7Usi9nXE2WISqL66jacQ?pwd=k42h 
+These two datasets can be downloaded via Baidu Netdisk, and the download links are as follows：https://pan.baidu.com/s/1vUgRJZ54fxgSQDGXWsf6sg?pwd=tyvy 
 
-After downloading, the file structure should appear as follows:
+After downloading, you need to unzip the downloaded files and place them in the `dataset` folder, and the file structure should appear as follows:
 ```bash
 Dataset
 |-- text
@@ -48,22 +48,21 @@ Dataset
 |    |-- MNER-UNI_train.txt  # The training set of MNER-MI-Plus.
 |    |-- MNER-UNI_val.txt    # The validation set of MNER-MI-Plus.
 |    |-- MNER-UNI_test.txt   # The test set of MNER-MI-Plus.
-|-- images.zip
-|-- twitter2017_images.zip
+|-- images.zip -> images (folder)
+|-- twitter2017_images.zip -> twitter2017_images (folder)
 ```
 
 The shared cloud files (Baidu Netdisk) include a folder named `text`, and two zip files named `images.zip` and `twitter2017_images.zip`.
 
 The `images.zip` contains all the images from the MNER-MI dataset, while the `twitter2017_images.zip` contains all the images from the Twitter-2017 dataset.
 
-The format of each text file is as follows:
-```json
+The format of each instance in text file is as follows:
+```bash
 # MNER-MI dataset examples
 {"id": 5302, "text": ["i", "have", "such", "a", "soft", "spot", "for", "jaebeom"], "images": ["5302_0.jpg", "5302_1.jpg"], "label": ["O", "O", "O", "O", "O", "O", "O", "B-PER"], "url": "https://twitter.com/i/web/status/1389292031688720386"}
 
 # Twitter-2017 examples in MNER-MI-Plus
-
-{'id': 'twitter2017-O_26', 'text': ['Taylor', 'with', 'her', '"', 'Taylor', 'Swift', 'Award', '"', 'she', 'is', 'such', 'a', 'legend', '.', '.', 'your', 'fav', 'could', 'never'], 'images': ['twitter2017-O_26.jpg'], 'label': ['B-PER', 'O', 'O', 'O', 'B-MISC', 'I-MISC', 'I-MISC', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O'], 'url': ''}
+{"id": "twitter2017-O_538", "text": ["Ryan", "Newman", "NASCAR", "Endorses", "Donald", "Trump", "for", "President"], "images": ["twitter2017-O_538.jpg"], "label": ["B-PER", "I-PER", "B-ORG", "O", "B-PER", "I-PER", "O", "O"], "url": ""}
 ```
 
 The instances from Twitter-2017 has been processed and converted into JSON format. 
