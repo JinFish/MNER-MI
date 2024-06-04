@@ -46,7 +46,7 @@ if __name__ == '__main__':
                         type=str,
                         default='../pretrained_models/ViTB-16')
     parser.add_argument('--num_epochs',
-                        default=3,
+                        default=15,
                         type=int,
                         help="num training epochs")
     parser.add_argument('--device',
