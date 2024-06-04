@@ -38,7 +38,7 @@ We merge it with [Twitter-2017](https://github.com/jefferyYu/UMT) to get a datas
 
 These two datasets can be downloaded via Baidu Netdisk, and the download links are as follows：https://pan.baidu.com/s/1vUgRJZ54fxgSQDGXWsf6sg?pwd=tyvy 
 
-After downloading, you need to unzip the downloaded files and place them in the `dataset` folder, and the file structure should appear as follows:
+After downloading, you need to unzip the downloaded files and place them in the `Dataset` folder, and the file structure should appear as follows:
 ```bash
 Dataset
 |-- text
