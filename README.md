@@ -62,6 +62,7 @@ The format of each text file is as follows:
 {"id": 5302, "text": ["i", "have", "such", "a", "soft", "spot", "for", "jaebeom"], "images": ["5302_0.jpg", "5302_1.jpg"], "label": ["O", "O", "O", "O", "O", "O", "O", "B-PER"], "url": "https://twitter.com/i/web/status/1389292031688720386"}
 
 # Twitter-2017 examples in MNER-MI-Plus
+
 {'id': 'twitter2017-O_26', 'text': ['Taylor', 'with', 'her', '"', 'Taylor', 'Swift', 'Award', '"', 'she', 'is', 'such', 'a', 'legend', '.', '.', 'your', 'fav', 'could', 'never'], 'images': ['twitter2017-O_26.jpg'], 'label': ['B-PER', 'O', 'O', 'O', 'B-MISC', 'I-MISC', 'I-MISC', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O'], 'url': ''}
 ```
 
@@ -79,8 +80,8 @@ The respective Hugging Face links are: https://huggingface.co/google-bert/bert-b
 ## Running
 After you have prepared the required enviroment, data, and models, you can run `python run.py` to train a model for MNER-MI.
 
-If running with the `python run.py --dataset MI`, the training and testing will be performed on the MNER-MI dataset.
-If running with the `python run.py --dataset UNI`, the training and testing will be performed on the MNER-MI-Plus dataset.
+If running with the `python run.py --dataset MI`, the training and testing will be performed on the **MNER-MI** dataset.
+If running with the `python run.py --dataset UNI`, the training and testing will be performed on the **MNER-MI-Plus** dataset.
 
 
 
