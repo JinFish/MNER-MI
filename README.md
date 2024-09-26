@@ -36,7 +36,8 @@ pip install tokenizers ==0.13.3
 In this paper, we introduce a dataset called **MNER-MI**. 
 We merge it with [Twitter-2017](https://github.com/jefferyYu/UMT) to get a dataset called **MNER-MI-Plus**.
 
-These two datasets can be downloaded via Baidu Netdisk, and the download links are as follows: https://pan.baidu.com/s/1b7SJKAmW2wkxAIy3rG0_WQ?pwd=yeg5
+These two datasets can be downloaded via Baidu Netdisk, and the download links are as follows: 
+https://pan.baidu.com/s/1KQvlkOQ18n9QxvhPq4a6YQ?pwd=mn55 
 
 After downloading, you need to unzip the downloaded files and place them in the `Dataset` folder, and the file structure should appear as follows:
 ```bash
