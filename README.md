@@ -37,7 +37,7 @@ In this paper, we introduce a dataset called **MNER-MI**.
 We merge it with [Twitter-2017](https://github.com/jefferyYu/UMT) to get a dataset called **MNER-MI-Plus**.
 
 These two datasets can be downloaded via Baidu Netdisk, and the download links are as follows: 
-[https://drive.google.com/drive/folders/1Yk5pTei9vVjkKpoHxEfs-5DP48LmRR1Z?usp=drive_link](https://pan.baidu.com/s/1e3OZ8nGIUaOmEK5nrS8NSA?pwd=bxq1)
+https://pan.baidu.com/s/1e3OZ8nGIUaOmEK5nrS8NSA?pwd=bxq1
 
 After downloading, you need to unzip the downloaded files and place them in the `Dataset` folder, and the file structure should appear as follows:
 ```bash
