@@ -36,8 +36,8 @@ pip install tokenizers ==0.13.3
 In this paper, we introduce a dataset called **MNER-MI**. 
 We merge it with [Twitter-2017](https://github.com/jefferyYu/UMT) to get a dataset called **MNER-MI-Plus**.
 
-These two datasets can be downloaded via Google Drive, and the download links are as follows: 
-https://drive.google.com/drive/folders/1Yk5pTei9vVjkKpoHxEfs-5DP48LmRR1Z?usp=drive_link
+These two datasets can be downloaded via Baidu Netdisk, and the download links are as follows: 
+[https://drive.google.com/drive/folders/1Yk5pTei9vVjkKpoHxEfs-5DP48LmRR1Z?usp=drive_link](https://pan.baidu.com/s/1e3OZ8nGIUaOmEK5nrS8NSA?pwd=bxq1)
 
 After downloading, you need to unzip the downloaded files and place them in the `Dataset` folder, and the file structure should appear as follows:
 ```bash
@@ -53,7 +53,7 @@ Dataset
 |-- twitter2017_images.zip -> twitter2017_images (folder)
 ```
 
-The shared cloud files (Google Drive) include a folder named `text`, and two zip files named `images.zip` and `twitter2017_images.zip`.
+The shared cloud files include a folder named `text`, and two zip files named `images.zip` and `twitter2017_images.zip`.
 
 The `images.zip` contains all the images from the MNER-MI dataset, while the `twitter2017_images.zip` contains all the images from the Twitter-2017 dataset.
 
